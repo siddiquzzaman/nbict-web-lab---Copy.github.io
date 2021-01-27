@@ -1,16 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
-    padding: 30px;
-    }
-    div{
-        border: 1px solid black;
-    }
-    #heading{
-        background-color:aqua ;
-        text-align: center;
-    }
-    #paragraph{
-        background-color: #edb887;
-        text-align: justify;
-    }
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: crimson;
+    position: fixed;
+    padding: 15px 0px ;
+    width: 100%;
+    font-family: Ubuntu,Poppins,sans-serif;
+
+}
+.navbar .max-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.max-width{
+    max-width:1300px;
+    margin: 0 auto;
+    padding: 0px 80px;
+
+}
+.navbar .logo a{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 25px;
+    font-weight: 500;
+}
